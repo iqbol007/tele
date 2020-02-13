@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.img-icons {
+  background-image: url('./img/icons.png');
+  height: 27px;
+  width: 150px;
+  margin-left: 30px;
+  background-size: cover;
+}
+
+.tariff {
+   width: 900px;
+  height: 400px;
+  display: flex;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.item {
+  border: 1px solid rgb(116, 115, 115);
+  width: 250px;
+  height: 350px;
+  margin: 30px;
+  box-shadow: 0px 0px 5px rgb(49, 49, 49);
+}
+.item:hover{
+  box-shadow: 0px 0px 30px rgb(49, 49, 49);
+}
+
+.hit-icon {
+  background-image: url('./img/hit.png');
+  background-size: cover;
+  position: absolute;
+  width:40px;
+  height: 40px;
+ 
+}
+.text{
+  margin-left: -40px;
+}
+.t-name {
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.t-price {
+  font-size: 3.5em;
+ font-weight: 700;
+  text-align: left;
+  padding-left: 5px;
+}
+.hit{
+  margin-left: 150px;
+}
+.descript{
+ margin-left: -5px;
+ color: rgb(49, 49, 49);
+}
+.t-time{
+  margin-left: -160px;
+}
+.by{
+  border: 2px solid black;
+  border-radius: 25px;
+  border-style: groove;
+  color: black;
+  width: 100px;height: 40px;
+  margin-top: 50px;
+  position: relative;
+  padding-bottom: -20px;
+}
+.rub{
+  margin-left: -20px;
+  margin-bottom: -30px;
+}
+.mon{
+  margin-top: 50px;
+  margin-left: 100px;
+  position: absolute;
+}
